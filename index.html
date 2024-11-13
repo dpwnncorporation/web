@@ -1,0 +1,444 @@
+<!DOCTYPE html>  <!navegador web que el documento que va a leer es una página web escrita en HTML.
+
+<html lang="es">   <! idioma español,informa en que idioma va estar la pagina
+   <head>    <! Es la estructura de  información.
+      <!-- basic -->
+      <meta charset="utf-8">  <! codificación de caracteres  que admite una amplia de caracteres, incluyendo símbolos y letras de diferentes idiomas.
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">   <! definen cómo se debe mostrar la página web en dispositivos móviles.RESPONSIVE
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">  
+      <!-- site metas -->
+      <title>sungla</title>   <!  Define el título de la página web, que se muestra en la barra de título del navegador.
+      <meta name="keywords" content="">  <!  Especifica palabras clave relacionadas con el contenido de la página.
+      <meta name="description" content="">  <! Proporciona una breve descripción del contenido de la página.
+      <meta name="author" content="">   <! Indica el autor de la página web.
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">  <! Enlaza un archivo CSS personalizado llamado "style.css" que contiene estilos específicos para la página web.
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">      <!Enlaza un archivo CSS adicional llamado "responsive.css"  asegurando que la página web se vea bien en dispositivos móviles y de escritorio.
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">     <!Define la imagen que se mostrará en la pestaña del navegador. En este caso, el favicon se encuentra en la carpeta "images" y se llama "fevicon.png".
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" /> <!
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css"> <!
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">    <!Enlaza un archivo CSS.
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">   
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      
+
+
+    
+    
+          <style>
+              body {
+                  background-image: url("fondo.jpg");
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-position: center;
+              }
+          </style>
+      
+
+
+    <!-- Contenido de la página -->
+</body>
+</html>
+   </head>
+   <!-- body -->
+   <body class="main-layout"> <!cuerpo de la pagina donde se va poder visualizar texto,imagenes,estilos.
+      <!-- loader  -->
+      <div class="loader_bg">   <! sirve como contenedor para mostrar una animación de carga 
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>  
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>   
+         <!-- header inner -->
+         <div class="header">  <!Crea un elemento "div" con la clase "header" para encapsular el contenido del encabezado. 
+            <div class="container-fluid">  
+               <div class="row">  
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">   
+                     <div class="full">    
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>  
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">   
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>     <! Crea un botón de menú que se  utiliza para mostrar el menú de navegación en pantallas pequeñas.
+                        <div class="collapse navbar-collapse" id="navbarsExample04">  
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.html">Inicio</a>   
+                              </li>                
+                              <li class="nav-item">  
+                                 <a class="nav-link" href="about.html">Acerca de</a>   
+                              <li class="nav-item">
+                                 <a class="nav-link" href="glasses.html">Nuestra producto</a>   
+                              </li>
+                              <li class="nav-item"> 
+                           
+                                 <a class="nav-link" href="shop.html">Comprar</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="contact.html">Contactanos</a>
+                              </li>
+                              
+                              <li class="nav-item d_none">
+                                 <a class="nav-link" href="#"></a>
+                              </li>
+                              
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>  
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div id="banner1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#banner1" data-slide-to="0" class="active"></li>
+               <li data-target="#banner1" data-slide-to="1"></li>
+               <li data-target="#banner1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1> <span class="blu">Bienvenido<br></span>Planeta movil</h1>
+                           <figure><img src="images/xiaomi 14ultra.jpeg" alt="#"/></figure>
+                           <a class="read_more" href="glasses.html">mas informacion </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1> <span class="blu">Bienvenido <br></span>Planeta movil</h1>
+                           <figure><img src="images/img.spark.20pro.jpeg" alt="#"/></figure>
+                           <a class="read_more" href="glasses.html">mas informacion  </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1> <span class="blu">Bienvenido <br></span>Planeta movil</h1>
+                           <figure><img src="images/img.samsung.a55.jpeg" alt="#"/></figure>
+                           <a class="read_more" href="glasses.html">mas informacion</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- about section -->
+      <div class="about">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="about_img">
+                     <figure><img src="images/foto-tienda.jpeg" alt="#"/></figure>
+                  </div>
+               </div>
+               
+               <div class="col-md-7">
+                  <div class="titlepage">
+                     <h2>Acerca de nuestra tienda</h2>
+                     <p>Conectamos tus sueños con tecnología : explora nuestra amplia selección de celulares y encuentra el dispositivo perfecto que se adapta a tu estilo de vida. Calidad, innovación y las mejores ofertas, todo en un solo lugar. ¡Tu próximo smartphone!
+
+
+
+                     </p>
+                  </div>
+                  <a class="read_more" href="about.html">Acerca de</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section -->
+      <!-- Our  Glasses section -->
+      <div class="glasses">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage">
+                     <h2>Nuestros telefonos</h2>
+                     <p>Lo esencial es tu bienestar digital en estos tiempos todo es por medio de un buen telefono movil
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/img.samsung.s24.jpeg" alt="#"/></figure>
+                     <h3><span class="blu">5500Bs</span></h3>
+                     <p>Samsung Galaxy S24 </p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/img.samsung.a34.jpeg" alt="#"/></figure>
+                     <h3><span class="blu">3300Bs</span></h3>
+                     <p>Samsung Galaxy A34</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/img.honor.x8a.jpeg" alt="#"/></figure>
+                     <h3><span class="blu">2400Bs</span></h3>
+                     <p>Honor X8a</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/img.honor.magic6.jpeg" alt="#"/></figure>
+                     <h3><span class="blu">3500Bs</span></h3>
+                     <p>Sunglasses</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/img.redminote.12.jpeg" alt="#"/></figure
+                     <h3><span class="blu">3000Bs</span></h3>
+                     <p> Redmi Note 12</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/img.tecno.spark.7t.jpeg" alt="#"/></figure>
+                     <h3><span class="blu">1300Bs</span></h3>
+                     <p> Tecno Spark 7T</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/img.samsung.a34.jpeg" alt="#"/></figure>
+                     <h3><span class="blu">2500Bs</span></h3>
+                     <p>Samsung Galaxy A34 </p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/img.spark.20pro.jpeg" alt="#"/></figure>
+                     <h3><span class="blu">1800Bs</span></h3>
+                     <p>Tecno Spark 20 Pro</p>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <a class="read_more" href="glasses.html">Mas informacion</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end Our  Glasses section -->
+      <!-- Our shop section -->
+      <div id="about" class="shop">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-5">
+                  <div  class="shop_img">
+                     <figure><img src="images/img.honor.x8a.jpeg" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-7 padding_right0">
+                  <div class="max_width">
+                     <div class="titlepage">
+                        <h2>Telefono movil que esta revolucionando a Bolivia</h2>
+                        <p>Tecnología de Pantalla: AMOLED.
+                           Sistema Operativo: Android 13 (Android T) + Magic 7.2.
+                           Procesador: Qualcomm Snapdragon 6 Gen 1 (SM6450)
+                           Tamaño de Pantalla: 6.78 pulgadas.
+                           Peso: 185g.
+                           Cámara de Fotos Principal: 108MP + 5MP + 2MP.
+                           Cámara de Fotos Frontal: 16MP.</p>
+                        <a class="read_more" href="#"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end Our shop section -->
+      <!-- clients section -->
+      <div class="clients">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Nosotros</h2>
+                     <p>formando paginas web  para tu negocio que recien esta empezando
+                        como en estos tiempos de modernizacion que esta viviendo el pais 
+                     es esencial tener  una pagina web es la sección donde tu página web se presenta al mundo. Es tu oportunidad de mostrar quiénes son las personas detrás del proyecto, qué los impulsa y cómo pueden ayudar a la audiencia.  </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide clients_Carousel " data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption ">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="clients_box">
+                                          <figure><img src="images/file (1).jpg" alt="#"/></figure>
+                                          <h3>Alexander Gomez Marquez</h3>
+                                          <p>Marketing y Publicidad,el que se encarga de ampliar para que haci nos conoscan.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="clients_box">
+                                          <figure><img src="images/file (2).jpg" alt="#"/></figure>
+                                          <h3>Miguel Rodriguez Castedo</h3>
+                                          <p>Diseño Web,programador web,que se encarga de los codigos. </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class='fa fa-angle-left'></i>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class='fa fa-angle-right'></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end clients section -->
+      <!-- contact section -->
+     
+      </div>
+      <!-- end contact section -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 offset-md-2">
+                     <ul class="location_icon">
+                        <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br>Santa cruz-Satelite norte </li>
+                        <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br> +591 76686379</li>
+                        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> dpwnncorporation@gmail.com</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+
+                  
+
+
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2024 DPWNN CORPORATION<a href="https://html.design/"> </a></p>
+                     </div>
+                  </div>
+                  <div class="iconos-redes-sociales">
+                     <a href="https://www.facebook.com/profile.php?id=61564996677034" target="_blank" rel="noopener noreferrer">
+                       <img src="images/facebook.png" alt="Facebook">
+                     </a>
+                     <a href="https://wa.me/76686379" target="_blank" rel="noopener noreferrer">
+                       <img src="images/whatsapp.png" alt="WhatsApp">
+                     </a>
+                     <a href="https://www.tiktok.com/@dpwnn_corporation" target="_blank" rel="noopener noreferrer">
+                       <img src="images/tik-tok.png" alt="TikTok">
+                     </a>
+                     <a href="https://www.instagram.com/dpwnncorporation" target="_blank" rel="noopener noreferrer">
+                       <img src="images/instagram.png" alt="Instagram">
+                     </a>
+                   </div>
+               </div>
+            </div>
+            
+         </div>
+         
+         
+          
+          
+
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script>
+         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+         // Australia.
+         function initMap() {
+           var map = new google.maps.Map(document.getElementById('map'), {
+             zoom: 11,
+             center: {lat: 40.645037, lng: -73.880224},
+             });
+         
+         var image = 'images/maps-and-flags.png';
+         var beachMarker = new google.maps.Marker({
+             position: {lat: 40.645037, lng: -73.880224},
+             map: map,
+             icon: image
+           });
+         }
+      </script>
+      <!-- google map js -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js --> 
+   </body>
+</html>
+
